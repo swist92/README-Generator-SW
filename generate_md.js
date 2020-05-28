@@ -1,4 +1,6 @@
-const readmeStr = `# Project name
+module.exports = function(answers){
+
+return `# ${answers.project}
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
@@ -73,19 +75,7 @@ If you want to contact me you can reach me at <your_email@address.com>.
 
 This project uses the following license: [<license_name>](<link>).`
 
-module.exports = {
-    sum: function(a, b){
-      return a + b;
-    },
-    difference: function(a, b){
-      return a - b;
-    },
-    product: function(a, b){
-      return a * b;
-    },
-    quotient: function(a, b){
-      return a / b;
-    }
+  
   };
   
 //   ^ operations that are exported to index.js

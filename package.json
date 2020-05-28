@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/swist92/README-Generator-SW/issues"
   },
-  "homepage": "https://github.com/swist92/README-Generator-SW#readme"
+  "homepage": "https://github.com/swist92/README-Generator-SW#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0"
+  }
 }
