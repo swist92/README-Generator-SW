@@ -37,6 +37,8 @@ module.exports = function () {
       message: "Does the project have a license?",
       choices: ["PostgreSQL", "Eclipse", "IBM"],
     },
+    //licenses is not working properly,
+    // check with other git projects to see how they did it 
     {
       name: "tests",
       type: "input",
