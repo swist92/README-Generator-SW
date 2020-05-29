@@ -1,6 +1,6 @@
 const fs = require("fs");
-const buildTemplate = require("./generate_md");
-const promptUser = require("./prompt-user");
+const buildTemplate = require("./utils/generate_md");
+const promptUser = require("./utils/prompt-user");
 
 async function init() {
   const user = await promptUser();
