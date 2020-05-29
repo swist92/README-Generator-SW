@@ -6,7 +6,7 @@ async function init() {
   const user = await promptUser();
   console.log(user);
   const README = buildTemplate(user);
-  fs.writeFile("README.md", README, function (err) {
+  fs.writeFile("newReadMe.md", README, function (err) {
     if (err) {
       throw err;
     }

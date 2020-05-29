@@ -4,12 +4,43 @@ module.exports = function () {
     {
       name: "username",
       type: "input",
-      message: "what is username?",
+      message: "What is GitHub username?",
     },
     {
-        name: "project",
-        type: "input",
-        message: "what is your project name?",
-      },
+      name: "project",
+      type: "input",
+      message: "What is your project title?",
+    },
+    {
+      name: "description",
+      type: "input",
+      message: "Give a description of your project.",
+    },
+    {
+      name: "installation",
+      type: "input",
+      message: "What are you installing?",
+    },
+    {
+      name: "usage",
+      type: "input",
+      message: "How do use the repo?",
+    },
+    {
+      name: "credits",
+      type: "input",
+      message: "Who else is credited on the repo?",
+    },
+    {
+      name: "lists",
+      type: "license",
+      message: "Does the project have a license?",
+      choices: ["PostgreSQL", "Eclipse", "IBM"],
+    },
+    {
+      name: "tests",
+      type: "input",
+      message: "What are the run commands for tests?",
+    },
   ]);
 };
