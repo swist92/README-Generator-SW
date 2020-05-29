@@ -4,7 +4,8 @@ function (answers, gitInfo) {
   
   
   return `
-  # ${answers.project}
+  # ${answers.username}
+  ![GitHub repo size](https://img.shields.io/github/repo-size/${answers.username}/${answers.project})
   
   ## Description
   ${answers.description}
@@ -22,8 +23,8 @@ function (answers, gitInfo) {
   
   *[Questions](#questions)
   
-  ## Install
-  ${answers.install}
+  ## Installation
+  ${answers.installation}
   
   ## Usage
   ${answers.usage}
