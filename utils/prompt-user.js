@@ -32,8 +32,8 @@ module.exports = function () {
       message: "Who else contributed on the repo?",
     },
     {
-      name: "lists",
-      type: "license",
+      name: "license",
+      type: "list",
       message: "Does the project have a license?",
       choices: ["PostgreSQL", "Eclipse", "IBM"],
     },

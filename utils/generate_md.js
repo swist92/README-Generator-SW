@@ -16,7 +16,7 @@ function (answers, gitInfo) {
   
   *[Contributors](#contributing)
   
-  *[Licenses](#lists)
+  *[Licenses](#licenses)
   
   *[Tests](#tests)
   
@@ -33,9 +33,9 @@ function (answers, gitInfo) {
   
   ## Licenses
   
-  The licenses of this project are ${answers.lists}
+  The licenses of this project are ${answers.license}
   
-  <img src=“https://img.shields.io/badge/License-${answers.lists}-blueviolet”></img>
+  <img src=“https://img.shields.io/badge/License-${answers.license}-blueviolet”></img>
   
   ## Tests
   ${answers.tests}
