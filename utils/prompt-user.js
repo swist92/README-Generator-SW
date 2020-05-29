@@ -27,9 +27,9 @@ module.exports = function () {
       message: "How do use the repo?",
     },
     {
-      name: "credits",
+      name: "contributing",
       type: "input",
-      message: "Who else is credited on the repo?",
+      message: "Who else contributed on the repo?",
     },
     {
       name: "lists",
