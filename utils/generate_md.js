@@ -15,7 +15,7 @@ function (answers, gitInfo) {
   
   *[Usage](#usage)
   
-  *[Contributors](#contributing)
+  *[Contributors](#contributors)
   
   *[Licenses](#licenses)
   

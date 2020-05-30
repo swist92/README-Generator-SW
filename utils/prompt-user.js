@@ -27,7 +27,7 @@ module.exports = function () {
       message: "How do use the repo?",
     },
     {
-      name: "contributing",
+      name: "contributors",
       type: "input",
       message: "Who else contributed on the repo?",
     },
@@ -36,9 +36,7 @@ module.exports = function () {
       type: "list",
       message: "Does the project have a license?",
       choices: ["PostgreSQL", "Eclipse", "IBM"],
-    },
-    //licenses is not working properly,
-    // check with other git projects to see how they did it 
+    }, 
     {
       name: "tests",
       type: "input",
