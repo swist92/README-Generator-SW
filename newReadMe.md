@@ -1,9 +1,9 @@
 
-  # teamjuli0
-  ![GitHub repo size](https://img.shields.io/github/repo-size/teamjuli0/sdfjkl)
+  # swist92
+  ![GitHub repo size](https://img.shields.io/github/repo-size/swist92/README-Generator-SW)
   
   ## Description
-  fsdjkl
+  Created a readme file through a CLI app
 
   ## Table of Contents
   *[Installation](#installation)
@@ -19,26 +19,26 @@
   *[Questions](#questions)
   
   ## Installation
-  sfdjkl
+  Installed axios into the project
   
   ## Usage
-  fdsjkl
+  You execute the commands in the terminal to generate the readme
   
   ## Contributors
   undefined
   
   ## Licenses
   
-  The licenses of this project are PostgreSQL
+  The licenses of this project are IBM
   
-  <img src=“https://img.shields.io/badge/License-PostgreSQL-blueviolet”></img>
+  <img src=“https://img.shields.io/badge/License-IBM-blueviolet”></img>
   
   ## Tests
-  jdsfkl
+  node index.js
   
   ## Questions
   
   Any questions relating to this project may contact GitHub user No email
-  GitHub Info teamjuli0
+  GitHub Info swist92
   
   
