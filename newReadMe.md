@@ -3,7 +3,7 @@
   ![GitHub repo size](https://img.shields.io/github/repo-size/swist92/README-Generator-SW)
   
   ## Description
-  Created a readme file through a CLI app
+  Created a readme file through a CLI app.
 
   ## Table of Contents
   *[Installation](#installation)
@@ -19,13 +19,13 @@
   *[Questions](#questions)
   
   ## Installation
-  Installed axios into the project
+  Installed axios into the project.
   
   ## Usage
-  You execute the commands in the terminal to generate the readme
+  You execute the commands in the terminal to generate the readme.
   
   ## Contributors
-  undefined
+  No other contributors.
   
   ## Licenses
   
@@ -38,7 +38,6 @@
   
   ## Questions
   
-  Any questions relating to this project may contact GitHub user No email
-  GitHub Info swist92
+  Any questions relating to this project may contact GitHub user swist92.
   
   

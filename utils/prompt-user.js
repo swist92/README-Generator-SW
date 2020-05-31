@@ -24,7 +24,7 @@ module.exports = function () {
     {
       name: "usage",
       type: "input",
-      message: "How do use the repo?",
+      message: "How do you use the repo?",
     },
     {
       name: "contributors",
