@@ -2,14 +2,13 @@ module.exports =
 function (answers, gitInfo) {
   const email = gitInfo.email || "No email";
   
-  
   return `
   # ${answers.username}
   ![GitHub repo size](https://img.shields.io/github/repo-size/${answers.username}/${answers.project})
   
   ## Description
   ${answers.description}
-  \`\`\`
+
   ## Table of Contents
   *[Installation](#installation)
   

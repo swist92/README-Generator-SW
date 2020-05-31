@@ -5,15 +5,15 @@ const api = require("./utils/api");
 
 async function init() {
   const user = await promptUser();
+  console.log(await api.getUser(user.username))
   const { data: gitInfo } = await api.getUser(user.username);
-  const README = buildTemplate(answers, gitInfo);
+  const README = buildTemplate(user, gitInfo);
   fs.writeFile("newReadMe.md", README, function (err) {
     if (err) {
       throw err;
     }
     console.log("Success!");
   });
-}
+};
 
-init()
-.catch();
+init();
